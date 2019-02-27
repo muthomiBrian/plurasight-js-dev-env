@@ -1,3 +1,3 @@
-const chalk = require('chalk');
+import { green } from 'chalk';
 
-console.log(chalk.green('Starting up in dev mode...'));
+console.log(green('Starting up in dev mode...'));
